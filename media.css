@@ -1,0 +1,8 @@
+@media only screen and (max-width:374px){
+    .my-button-one{
+        display: none;
+    }   
+    .my-button-two{
+        display: none;
+    }   
+}

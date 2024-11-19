@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Navbar Start */
+
+nav{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Navbar one section */
+
+.navbar-one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav img{
+    height: 30px;
+}
+
+nav h1{
+    color: #ff2b85;
+}
+
+/* Navbar one section */
+
+.navbar-two{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.my-button-one{
+    background-color: #ffffff;
+    color: #39434d;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: all .5s;
+}
+
+.my-button-two{
+    background-color: #ff2b85;
+    color: #ffffff;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: none;
+    transition: all .5s;
+}
+
+.my-button-one:hover{
+     transform: scale(1.1);
+}
+.my-button-two:hover{
+     transform: scale(1.1);
+}
+
+
+/* Navbar End  */
+
+
+/* Header Start */
+
+
+.header-container{
+    background-color: #f7f7;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-coloum{
+    /* background-color: #ff2b85; */
+    place-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.text-button{
+    /* background-color: blue; */
+    width: 80%;
+    margin: auto;
+}
+
+.text-coloum span{
+    color: #333333;
+     font-size: 2.7rem;
+}
+
+.span-input{
+    /* background-color: aqua; */
+    width: 95%;
+    flex-direction: start;
+    margin: auto;
+}
+
+.search-box{
+    background-color: #fff;
+    padding: 10px 10px;
+    width: 90%;
+    border-radius: 8px ;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-box input{
+    padding: 5px;
+    width: 80%;
+    border: 0.1px solid rgb(139, 118, 118);
+    border-radius: 8px ;
+}
+
+.search-box button{
+    background-color: #ff2b85;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    transition: all .5s;
+}
+
+
+.picture-coloum{
+    /* background-color: blue; */
+    height: 100%;
+    width: 50%;
+}
+.picture-coloum img{
+    /* background-color: #333333; */
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+}
+
+/* Header end */
+
+
+/* section one strat */
+
+.section-one{
+    /* background-color: aqua; */
+    height: 110vh;
+    width: 100%;
+    position: relative;
+}
+
+.section-one h1{
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px ;
+}
+.section-one img{
+    height: 70vh;
+    width: 100%;
+}
+
+
+.card{
+    background-color: #ffffff;
+    color: #000000;
+    height: 300px;
+    width: 650px;
+    border: 1px solid rgb(228, 211, 211);
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 10px ;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+
+.card h1{
+    
+}
+
+.card p{
+    padding: 5px;
+}
+
+.card button{
+        background-color: #ff2b85;
+        color: #ffffff;
+        padding: 15px 15px;
+        border-radius: 10px;
+        border: none;
+        transition: all .5s;
+        margin-top: 10px;
+}
+
+/* section one end */
+
+
+/* section two strat */
+
+.section-two{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+}
+
+.section-two h1{
+    padding: 50px;
+
+}
+
+.flex-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    /* background-color: #ff2b85; */
+    height: 200px;
+    width: 300px;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box button{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: -50px;
+    left: 10px;
+}
+
+
+/* section two end */
+
+
+
+/* section three strat */
+
+.section-three{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+}
+
+.section-three h1{
+    padding: 50px;
+
+}
