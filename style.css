@@ -252,12 +252,14 @@ nav h1 {
     width: 100%;
 }
 
+
 .section-two h1{
-    margin-bottom: 50px;
-    margin-left: 50px;
-    font-weight: bold;
     color: black;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 20px ;
 }
+
 
 .flex-boxes{
     display: flex;
