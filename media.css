@@ -187,6 +187,10 @@
         left: 280px;
         top: 0;
     }
+
+    .section-five{
+        margin-top: 200px;
+    }
 }
 
 
@@ -293,7 +297,15 @@
     .section-two {
         margin-top: 400px;
     }
+ 
 
+    .footer-main h3{
+        font-size: 1.2rem;
+        color: black;
+        position: absolute;
+        left: 120px;
+        top: 0;
+    }
     
 
 }
@@ -324,6 +336,10 @@
         position: absolute;
         left: 100px;
         top: 0;
+    }
+
+    .section-five{
+        margin-top: 250px;
     }
 }
 
