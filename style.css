@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,9 +8,14 @@
 
 /* Navbar Start */
 
-nav{
+
+.profile-icon {
+    color: black;
+}
+
+nav {
     background-color: whitesmoke;
-    height: 50px;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -19,29 +24,33 @@ nav{
 
 /* Navbar one section */
 
-.navbar-one{
+.navbar-one {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-nav img{
+nav img {
     height: 30px;
 }
 
-nav h1{
+nav h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
     color: #ff2b85;
+    margin-top: 8px;
 }
 
 /* Navbar one section */
 
-.navbar-two{
+.navbar-two {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.my-button-one{
+.my-button-one {
     background-color: #ffffff;
     color: #39434d;
     padding: 6px 15px;
@@ -50,7 +59,7 @@ nav h1{
     transition: all .5s;
 }
 
-.my-button-two{
+.my-button-two {
     background-color: #ff2b85;
     color: #ffffff;
     padding: 6px 15px;
@@ -59,91 +68,106 @@ nav h1{
     transition: all .5s;
 }
 
-.my-button-one:hover{
-     transform: scale(1.1);
+.my-button-one:hover {
+    transform: scale(1.1);
 }
-.my-button-two:hover{
-     transform: scale(1.1);
+
+.my-button-two:hover {
+    transform: scale(1.1);
 }
 
 
 /* Navbar End  */
 
 
-/* Header Start */
 
 
-.header-container{
-    background-color: #f7f7;
-    height: 80vh;
+
+/* header Start */
+
+
+.text-image-container {
+    background-color: #f7f7f7;
+    /* background-color: aqua; */
+    height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.text-coloum{
+.text-container {
     /* background-color: #ff2b85; */
     place-content: center;
-    height: 100%;
-    width: 50%;
+    height: 90vh;
+    width: 60%;
+
 }
 
-.text-button{
+.text-button {
     /* background-color: blue; */
     width: 80%;
     margin: auto;
 }
 
-.text-coloum span{
+.text-button span {
     color: #333333;
-     font-size: 2.7rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-.span-input{
-    /* background-color: aqua; */
-    width: 95%;
-    flex-direction: start;
-    margin: auto;
+#locate-icon {
+    color: #c12760;
+
 }
 
-.search-box{
-    background-color: #fff;
-    padding: 10px 10px;
-    width: 90%;
-    border-radius: 8px ;
+.search-box {
+    box-shadow: 0 .188rem 1.25rem rgba(0, 0, 0, .1);
+    padding: 15px 15px;
+    width: 100%;
+    border-radius: 10px !important;
     border: none;
     display: flex;
     justify-content: space-evenly;
+    border: none;
+    gap: 20px;
 }
 
-.search-box input{
+.search-box input {
     padding: 5px;
-    width: 80%;
+    width: 60%;
     border: 0.1px solid rgb(139, 118, 118);
-    border-radius: 8px ;
+    border-radius: 10px;
 }
 
-.search-box button{
+.text-button button {
     background-color: #ff2b85;
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
     transition: all .5s;
+    width: 100px;
+}
+
+.text-button button:hover {
+    transform: scale(1.1);
 }
 
 
-.picture-coloum{
+.image-container {
     /* background-color: blue; */
-    height: 100%;
-    width: 50%;
+    height: 90vh;
+    width: 40%;
+    place-content: center;
 }
-.picture-coloum img{
+
+.foodpanda-picture {
     /* background-color: #333333; */
     max-width: 100%;
     max-height: 100%;
-    z-index: -1;
+
 }
 
 /* Header end */
@@ -152,55 +176,69 @@ nav h1{
 /* section one strat */
 
 .section-one{
-    /* background-color: aqua; */
-    height: 110vh;
-    width: 100%;
     position: relative;
-}
-
-.section-one h1{
-    padding: 20px;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 20px ;
-}
-.section-one img{
     height: 70vh;
     width: 100%;
 }
 
 
-.card{
-    background-color: #ffffff;
-    color: #000000;
-    height: 300px;
-    width: 650px;
-    border: 1px solid rgb(228, 211, 211);
-    padding: 5px;
-    font-size: 1.2rem;
-    border-radius: 10px ;
+.section-one h1{
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 20px ;
+}
+
+.section-one img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.content-box {
     position: absolute;
-    bottom: 0px;
+    top: 290px;
     left: 100px;
-}
+    z-index: 2;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-box h2 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  .content-box p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
 
-.card h1{
-    
-}
 
-.card p{
-    padding: 5px;
-}
-
-.card button{
-        background-color: #ff2b85;
-        color: #ffffff;
-        padding: 15px 15px;
-        border-radius: 10px;
-        border: none;
-        transition: all .5s;
-        margin-top: 10px;
-}
+  .button {
+    display: inline-block;
+    background-color: #ff2b85;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ff2b85;
+    transform: scale(1.1);
+  }
 
 /* section one end */
 
@@ -209,13 +247,16 @@ nav h1{
 
 .section-two{
     /* background-color: aqua; */
+    margin-top: 250px;
     height: 100%;
     width: 100%;
 }
 
 .section-two h1{
-    padding: 50px;
-
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: black;
 }
 
 .flex-boxes{
