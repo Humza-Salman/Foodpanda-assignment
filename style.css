@@ -22,6 +22,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Navbar one section */
@@ -429,6 +432,16 @@ nav h1 {
     color: #333333;
     font-size: 1.2rem;
 }
+
+.main-div span{
+    color: #333333;
+    font-size: 1.2rem;
+}
+
+.main-div i{
+    color: #ff2b85;
+}
+
 .main-div p a{
     color: #e21b70;
 }
@@ -439,3 +452,111 @@ nav h1 {
 
 
 /* section five end */
+
+
+/* Footer */
+
+
+.my-footer{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-had{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.footer-had a{
+    color: #333333;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+
+.footer-main{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 2.5rem;
+    position: relative;
+}
+
+.footer-main h3{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-main :first-child{
+    margin-top: 0;
+}
+
+
+.footer-main a{
+    color: #333333;
+}
+.footer-main ul {
+    list-style: none;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.footer-main a:hover{
+    text-decoration: underline;
+}
+
+.ankar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer-last{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.foodpanda-img {
+    height: 30px;
+}
+
+.footer-logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff2b85;
+    margin-top: 8px;
+}
+
+.foort-img {
+      height: 100px;
+}
+
+
+.social-media a{
+    color: black;
+    padding: 5px;
+}

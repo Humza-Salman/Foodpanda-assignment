@@ -159,6 +159,34 @@
     .section-two {
         margin-top: 300px;
     }
+
+    .ankar-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-main ul {
+        list-style: none;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .footer-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-main h3{
+        font-size: 1.2rem;
+        color: black;
+        position: absolute;
+        left: 280px;
+        top: 0;
+    }
 }
 
 
@@ -216,6 +244,29 @@
         right: 15px;
     }
 
+    .footer-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-main h3{
+        font-size: 1.2rem;
+        color: black;
+        position: absolute;
+        left: 140px;
+        top: 0;
+    }
+
+
+    .footer-logo {
+        flex-direction: column;
+    }
+
+    .footer-last{
+        flex-direction: column;
+    }
 
 }
 
@@ -243,6 +294,8 @@
         margin-top: 400px;
     }
 
+    
+
 }
 
 
@@ -263,6 +316,14 @@
 
     .right img {
         height: 250px;
+    }
+
+    .footer-main h3{
+        font-size: 1.2rem;
+        color: black;
+        position: absolute;
+        left: 100px;
+        top: 0;
     }
 }
 
