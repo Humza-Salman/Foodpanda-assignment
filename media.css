@@ -1,4 +1,66 @@
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
+    .section-three{
+        /* background-color: aqua; */
+        height: 100%;
+        width: 100%;
+        color: white;
+    }
+    
+    .section-three h1{
+        padding: 50px;
+        font-weight: bold;
+        color: black;
+        
+    }
+    
+    .my-container{
+        background-color: #e21b70;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 90vw;
+        border-radius: 20px;
+        margin: auto;
+    }
+    
+    .left{
+        /* background-color: blue; */
+    }
+    
+    
+    #image-para{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 80%;
+        margin: auto;
+        margin-top: -60px;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    #image-para img{
+        display: none;
+    }
+    
+    .left > h1{
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {   
 
     /* navbar */
     .my-button-one {
@@ -50,7 +112,7 @@
     
     .search-box input {
         background-color: white !important;
-        margin: 10px;
+        /* margin: 10px; */
         width: 100%;
         height: 45px;
         border: 0.1px solid rgb(139, 118, 118);
@@ -69,7 +131,15 @@
         place-content: start;
     }
 
+    
 }
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px){
     .section-one h1{
@@ -79,6 +149,13 @@
         margin-top: 300px;
     }
 }
+
+
+
+
+
+
+
 
 
 
@@ -104,20 +181,30 @@
       }
       
       .section-two{
-        /* background-color: aqua; */
-        margin-top: 400px;
-        height: 100%;
-        width: 100%;
+        margin-top: 350px;
     }
     .section-two h1{
         margin-bottom: 50px;
         margin-left: 10px;
     }
-      
+
+
+    .right img{
+        height: 290px;
+    }
+
 
 
 }
-@media only screen and (max-width: 374px) {
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
     .text-button span {
         font-size: 1.4rem;
     }
@@ -130,10 +217,7 @@
     }
 
     .section-two{
-        /* background-color: aqua; */
-        margin-top: 470px;
-        height: 100%;
-        width: 100%;
+        margin-top: 400px;
     }
       
 }
@@ -141,6 +225,23 @@
 
 
 
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px){
+    .section-two{
+        margin-top: 450px;
+    }
+
+    .right img{
+        height: 250px;
+    }
+}
 
 
 
